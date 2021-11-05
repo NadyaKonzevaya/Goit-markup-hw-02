@@ -10,8 +10,12 @@
   --second-btn-color: #ffffff;
   --accent-color--: #2196f3;
 }
-.body {
+body {
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -26,6 +30,136 @@
   color: var(--accent-color--);
 }
 
-.button {
+/* .button { берется из нормалайз
   font-family: inherit;
+} */
+/* ------------------------------------------------------- HEADER------------------------------------------------- */
+span.header-logo,
+span.footer-logo {
+  color: var(--accent-color--);
+}
+a.header-logo,
+a.footer-logo {
+  color: var(--main-logo-color--);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.header-nav-link {
+  color: var(--third-text-color--);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color--);
+}
+.header-contacts-link {
+  color: var(--main-text-color--);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* -----------------------------------------------------HERO---------------------------------------------------------------- */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--second-title-color--);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36x;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-title-btn {
+  color: var(--second-text-color--);
+  background-color: var(--accent-color--);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* --------------------------------------------------НАШИ ПРЕИМУЩЕСТВА--------------------------------------------------------- */
+
+.advant-item-title {
+  color: var(--main-title-color--);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advant-item-text {
+  color: var(--main-text-color--);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ---------------------------------------------------ЧЕМ МЫ ЗАНИМАЕМСЯ---------------------------------------------------------- */
+
+.work-title,
+.team-title {
+  color: var(--main-title-color--);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+/* ----------------------------------------------------НАША КОМАНДА---------------------------------------------------------------- */
+
+.team-item-title {
+  color: var(--main-title-color--);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-item-text {
+  color: var(--main-text-color--);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* --------------------------------------------------------FOOTER-------------------------------------------------------------------- */
+
+a.footer-logo {
+  color: var(--second-logo-color--);
+}
+
+.footer-link {
+  color: var(--second-text-color--);
+
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-item > a {
+  color: rgba(255, 255, 255, 0.6);
 }
