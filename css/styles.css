@@ -1,0 +1,31 @@
+:root {
+  --main-title-color--: #212121;
+  --second-title-color--: #ffffff;
+  --main-text-color--: #757575;
+  --second-text-color--: #ffffff;
+  --third-text-color--: #212121;
+  --main-logo-color--: #000000;
+  --second-logo-color--: #ffffff;
+  --main-btn-color--: #212121;
+  --second-btn-color: #ffffff;
+  --accent-color--: #2196f3;
+}
+.body {
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link.current {
+  color: var(--accent-color--);
+}
+
+.button {
+  font-family: inherit;
+}
