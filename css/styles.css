@@ -1,18 +1,15 @@
 :root {
-  --main-title-color--: #212121;
-  --second-title-color--: #ffffff;
-  --main-text-color--: #757575;
-  --second-text-color--: #ffffff;
-  --third-text-color--: #212121;
-  --main-logo-color--: #000000;
-  --second-logo-color--: #ffffff;
-  --main-btn-color--: #212121;
-  --second-btn-color: #ffffff;
+  --second-color--: #212121;
+  --third-color--: #ffffff;
+  --main-color--: #757575;
+  --fourth-color--: #000000;
   --accent-color--: #2196f3;
   --background-color--: #2f303a;
   --background-btn-color--: #f5f4fa;
 }
 body {
+  color: var(--main-color--);
+
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,6 +33,24 @@ body {
 .button { 
   font-family: inherit;
 } */
+
+.pointer {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* ------------------------------------------------------- HEADER------------------------------------------------- */
 
 span.header-logo,
@@ -44,7 +59,7 @@ span.footer-logo {
 }
 a.header-logo,
 a.footer-logo {
-  color: var(--main-logo-color--);
+  color: var(--fourth-color--);
 
   font-family: Raleway;
   font-weight: 700;
@@ -53,7 +68,7 @@ a.footer-logo {
 }
 .header-nav-link,
 .header-contacts-link {
-  color: var(--third-text-color--);
+  color: var(--second-color--);
 
   font-weight: 500;
   line-height: 1.14;
@@ -66,7 +81,7 @@ a.footer-logo {
   color: var(--accent-color--);
 }
 .header-contacts-link {
-  color: var(--main-text-color--);
+  color: var(--main-color--);
 }
 /* -----------------------------------------------------HERO---------------------------------------------------------------- */
 .hero,
@@ -75,7 +90,7 @@ a.footer-logo {
 }
 
 .hero-title {
-  color: var(--second-title-color--);
+  color: var(--third-color--);
 
   font-weight: 900;
   font-size: 44px;
@@ -86,7 +101,7 @@ a.footer-logo {
 }
 
 .hero-title-btn {
-  color: var(--second-text-color--);
+  color: var(--third-color--);
   background-color: var(--accent-color--);
 
   font-weight: 700;
@@ -99,7 +114,7 @@ a.footer-logo {
 /* --------------------------------------------------НАШИ ПРЕИМУЩЕСТВА--------------------------------------------------------- */
 
 .advant-item-title {
-  color: var(--main-title-color--);
+  color: var(--second-color--);
 
   font-weight: 700;
   font-size: 14px;
@@ -109,8 +124,6 @@ a.footer-logo {
 }
 
 .advant-item-text {
-  color: var(--main-text-color--);
-
   font-size: 14px;
   line-height: 1.71;
 }
@@ -119,7 +132,7 @@ a.footer-logo {
 
 .work-title,
 .team-title {
-  color: var(--main-title-color--);
+  color: var(--second-color--);
 
   font-weight: 700;
   font-size: 36px;
@@ -130,7 +143,7 @@ a.footer-logo {
 
 .team-item-title,
 .team-item-text {
-  color: var(--main-title-color--);
+  color: var(--second-color--);
 
   font-weight: 500;
   font-size: 16px;
@@ -139,19 +152,17 @@ a.footer-logo {
 }
 
 .team-item-text {
-  color: var(--main-text-color--);
-
-  font-weight: 400;
+  color: var(--main-color--);
 }
 
 /* --------------------------------------------------------FOOTER-------------------------------------------------------------------- */
 
 a.footer-logo {
-  color: var(--second-logo-color--);
+  color: var(--third-color--);
 }
 
 .footer-link {
-  color: var(--second-text-color--);
+  color: var(--third-color--);
 
   font-style: normal;
 }
@@ -163,7 +174,7 @@ a.footer-logo {
 /* ----------------------------------------------------- ПОРТФОЛИО ФИЛЬТР---------------------------------------------------------- */
 
 .portfolio-btn {
-  color: var(--main-btn-color--);
+  color: var(--second-color--);
   background-color: var(--background-btn-color--);
 
   font-weight: 500;
@@ -174,14 +185,14 @@ a.footer-logo {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--second-btn-color);
+  color: var(--third-color--);
   background-color: var(--accent-color--);
 }
 
 /* ------------------------------------------------------ПОРТФОЛИО-------------------------------------------------------------------- */
 
 .portfolio-item-title {
-  color: var(--main-title-color--);
+  color: var(--second-color--);
 
   font-weight: 700;
   font-size: 18px;
@@ -190,7 +201,7 @@ a.footer-logo {
 }
 
 .portfolio-item-text {
-  color: var(--main-text-color--);
+  color: var(--main-color--);
 
   font-size: 16px;
   line-height: 1.87;
